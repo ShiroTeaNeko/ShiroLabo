@@ -1,0 +1,3522 @@
+fileFormatVersion: 2
+guid: ca32628c825a9344e940a3cf42ed8771
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 16
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 222
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671bed200fa90ba4a8eb1f40d00ae8c1
+      internalID: -888585983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 222
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6825ae3b5471fc42b6ee38952b26b16
+      internalID: 50133904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 222
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa624c9be6c2e34ea575f55c17fdb75
+      internalID: -1376011663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_3
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 222
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a393bee54a46db48a20759c342af88a
+      internalID: 1330236559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_4
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 229
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb18019a8da49e446a50c57a1fb91264
+      internalID: 1250906692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 229
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2d85e33df43f54892dfd96f320a899
+      internalID: -1114152869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_6
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 229
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be12958d58c6b841b67602b7465d972
+      internalID: -1832156449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_7
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 229
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3de85fc40b603f4eb65747e23d8b3f2
+      internalID: -226938106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_8
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 229
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f237c18e86d12c45b4360373f7d372f
+      internalID: -1593053988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_9
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 229
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39eae6bb2ee8a924fa838674bc65f13d
+      internalID: -1813560851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_10
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 229
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379468d63d6dba64f978d5b8c0cdf916
+      internalID: -742529885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_11
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 229
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56eb3f7be184ae84ba1551183be74dab
+      internalID: 1338463243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_12
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 224
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e8f025825e70548829901982f27131
+      internalID: -580065847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_13
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 226
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4134a552879f1c64e91239c3619bc9db
+      internalID: -280389956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 226
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2c1552ace344741b12d7052978b32a
+      internalID: 76619888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_15
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 227
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60928d65376a4124584c09173c60b8e0
+      internalID: -1851362385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_16
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 227
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78419153e0f6124f945c7ca86373fb5
+      internalID: 924489825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_17
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 227
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86325fb44e10834694e148463e7964d
+      internalID: 407263502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_18
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 226
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af746241ab09f846a14f7b6eeedf9fc
+      internalID: 813964874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_19
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 224
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b787f3b640bc1014eaef48ff4b80de24
+      internalID: 1918179625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_20
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 224
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5381d551328e78644bef95b57b6655b1
+      internalID: 1320445553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_21
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 226
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4332d059db0ec47850226a064f5462
+      internalID: 158063972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_22
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 226
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7116f58b8d93ea141863a01e31532ed1
+      internalID: 1774468557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 193
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851b68215bfa9b344b2fbe5f52a0c19d
+      internalID: 472470300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_24
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 193
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe33867752d82c48a493f3b50318025
+      internalID: 403015423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_25
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 193
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0b4bf2faef64f43aec5223fa46d5d5
+      internalID: -1487054898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_26
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 192
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a217ae77cf3da4696adb5bbc32701d
+      internalID: -238871573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_27
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 190
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79f8a4b48a7f10479f95f057782c8ea
+      internalID: 1397142299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_28
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 189
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e579e6fbbdcb914f8f546836d4064ec
+      internalID: 2124435206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_29
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 190
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d12516136cd9194099e4dc55f1e393d
+      internalID: 1586965652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_30
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 190
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01d5ff1e29cca34fb1928753f8bcfe8
+      internalID: -834819635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_31
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 189
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f166ef6ec947c3642857515df3d724e4
+      internalID: 2041584626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_32
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 189
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1e668b59a4be84682dec2f83587dbe
+      internalID: 1107777727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_33
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 190
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6e8e3a83daab84bbb6f6a8009bc898
+      internalID: 1681420785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_34
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 190
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ca35a8397d82d4ba5f535dde61cfb8
+      internalID: 1359930409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_35
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 189
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5d41c67c5b8f24e925e6863bc491c3
+      internalID: 1424857931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_36
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 188
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5ab5db75eed5140a53166f056782d4
+      internalID: 1328599622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_37
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 189
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8523262694ce2434b8acc5eaed7e0900
+      internalID: -49999328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_38
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 190
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b779f416d489e4e90cb6d249874058
+      internalID: -137213294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_39
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 190
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5316df074195bf74abed87e6a57075ca
+      internalID: 1585364933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_40
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 190
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fedc27ab020a40c40b3aabe254b8c458
+      internalID: -35949458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_41
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 190
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59428c9b781fb1f48809f83d0f129259
+      internalID: 542782958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_42
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 189
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df05d3387666fd48b9a9c7e16616157
+      internalID: 1770049700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_43
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 188
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6421fac4b3d788f479a53d78050d9b1c
+      internalID: -103455810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_44
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 189
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1dd3eb4590b954caae5d9a4794f95e
+      internalID: 283869718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_45
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 190
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b844c0483a537ea4abb63ed81c5a4baa
+      internalID: -1168656113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_46
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 190
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7116e412490d7745a54201aab2d7bbf
+      internalID: 2036424491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_47
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 190
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d12e01c65488348954ea57ba5fc009
+      internalID: 309715885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_48
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 156
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f095cd4844440c429dc0d79109fdf71
+      internalID: -1972032116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_49
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 155
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bca771c0abac4408ba5efedef45b95
+      internalID: 380620686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_50
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 156
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c246debae9f21341afc59caf88bcedc
+      internalID: 1526800505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_51
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 149
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12683ed2bb078144b89689adf34e9efa
+      internalID: 1020074158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_52
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 158
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aac2ea1a6fd3f84892099a5a69c4a7e
+      internalID: 1063882701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_53
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 159
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c53ea44a29f7414eb2b59510ac31775
+      internalID: -1932578154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_54
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 159
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885f51efd1b983b48b5f69fabace9655
+      internalID: -1221831778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_55
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 159
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5119af35c60a8034096bc89b3bdfb2a3
+      internalID: 595017478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_56
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 158
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da360fac3e2d504dac8991581d4d28c
+      internalID: -1659220840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_57
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 156
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98aa43a7012a21459053b3821326a0e
+      internalID: 1449362592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_58
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 156
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d631b91e0c853d54cb34d30322276665
+      internalID: -559359017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_59
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 149
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0f9d7a495a95744b373a49bc94ddec
+      internalID: 102550601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_60
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 158
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a30b6127f599843a39a0a1613f9b56
+      internalID: 2002825872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_61
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 159
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905662cf1be942448840178a82b9694f
+      internalID: 1130603748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_62
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 159
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d2d3e53fc6f6740924aa0364be0521
+      internalID: -1616518937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_63
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 120
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1e6a139df96aa4e86628cf5a96e0e8
+      internalID: 990540632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_64
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 119
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17865b00e612234895e63acf8b407b8
+      internalID: 701884901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_65
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 117
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99835460387c3e24fa6dc3de5ba8bb7a
+      internalID: -652226024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_66
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 115
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425f1b0b0117a7d4487b49592d6f42d9
+      internalID: -493018526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_67
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 115
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170f2195d553be04f9af840b5aecdd29
+      internalID: 1170222678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_68
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 116
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe2a317bc77eb84891346dedcc59518
+      internalID: 300890422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_69
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 116
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f5ed78712292a4b87a222e6ae07a5b
+      internalID: 699041386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_70
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 116
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5689a215ced5e64ba456c8977701723
+      internalID: 1550635590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_71
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 116
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0a0da6394458344a12cd883867693b
+      internalID: 595001250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_72
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 116
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55add10f052c6d243879d6cf9bb99844
+      internalID: -775410801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_73
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 116
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c22ff11833a844d9264d4eb2fd360d
+      internalID: 1650285755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_74
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 115
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c39c62ed31b00b42976b5453998e02a
+      internalID: -1682415967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_75
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 115
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8036ff44afeda4b968f8f46be07881
+      internalID: 1673236386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_76
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 115
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696f4756eb4790d44b258a6ce17d0c39
+      internalID: 2012775194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_77
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 115
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27951bc5e2ef0b488ef201a49f9f308
+      internalID: -1648291705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_78
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 115
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b353351e93806834face7ed8d56354ba
+      internalID: 1887615344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_79
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 115
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a252a1f0e90d349a05f8a5326e55a6
+      internalID: -1165730404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_80
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 115
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbd41d3766f1924591d815cc33a01c6
+      internalID: -469511792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_81
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 115
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975c844f65f6b3b4382a372e69f81f5e
+      internalID: -206134062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_82
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 115
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63e60622059f30409bf141354cea53f
+      internalID: -798847429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_83
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 115
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5928045344107143853caea86697453
+      internalID: 1262434414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_84
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 81
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a66f49635fc8db40be9f09e3175a960
+      internalID: -251855669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_85
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 81
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58cdea7434efa3b44a979d3c357a7d6f
+      internalID: 1648081909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_86
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 82
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586d8f482ea2393469dce86ac368ac7e
+      internalID: 1083629217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_87
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 82
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680016bbf5373e2478e73efc77cd7339
+      internalID: -382293531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_88
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 82
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5fe9d2333260c4ab502efe9cb09e15
+      internalID: -1317438192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_89
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 82
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be420be6062935c418280726a4a54697
+      internalID: -148878960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_90
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 81
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9543ad8440992b14b8a04fec46e8e737
+      internalID: 1290901802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_91
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 81
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374347b533180d34294181c1f847f7bb
+      internalID: -69677759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_92
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 81
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e53941d8bdd6ff4eb54d3c9e3523504
+      internalID: 1050161275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_93
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 81
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01584ebd1ce09b24c9b92ca0f4687b66
+      internalID: 960345858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_94
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 81
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6c8bbeedf5f7d4389b1a761971ee07
+      internalID: -1595344029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_95
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 81
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2f1510cd024b541a068e539ca3c170
+      internalID: -2091389664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_96
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 99
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120c66e8364fe9e45982149e504bfb6f
+      internalID: 1299442818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_97
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 99
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efccc0eb17b5b3b46af0d9c0af20ac93
+      internalID: 113864531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_98
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 81
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b665b3a25efe699409ade10cf918e3cb
+      internalID: 1279113589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_99
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 81
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3d58cf8b0d00c4996905dacdb790b4
+      internalID: 1372264544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_100
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 81
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68eff5bfa1d61354eae58654d43ca872
+      internalID: -947263185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_101
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 81
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ccfac8dfc000c34f8c80d7f2af45dd3
+      internalID: 1133887341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_102
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 81
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00010c12116a6c542ba4f560d0a98a92
+      internalID: -1848506706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_103
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 81
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95af895d9d2e67419028d50979b5fb3
+      internalID: -506567021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_104
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 82
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a321cd9246b9b4082ef6e7288df9f6
+      internalID: -2118240807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_105
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 82
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f71a14ef660be49ab1d98b49a74d38
+      internalID: 2967932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_106
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 83
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0669eda606b9f8a45a355b18ffb94c1c
+      internalID: -301024610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_107
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 81
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9117cba971bc87c4088c5e46b9534b51
+      internalID: -1505151047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_108
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 46
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73374d7502ec5a4429da3cf9068d1631
+      internalID: 1233884089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_109
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 49
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d03162d80f2b3e489a3e4126d942b9e
+      internalID: -596395426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_110
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 47
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c48ca45fc12df458bf7ad8da46c4d9
+      internalID: -1379465133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_111
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 46
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0010064134a897a429578e0e7035be9f
+      internalID: 1307464566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_112
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 49
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c923cd90a02257547b920d6aae09a05d
+      internalID: 803468847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_113
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 48
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b614bad44672d4f46b8c6f57e002f1ca
+      internalID: -1290332053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_114
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 47
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfdd89402695964b937878df93419a2
+      internalID: -96680197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_115
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 49
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9f7af47d2fbd34893bddac0cb017fa
+      internalID: -580407371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_116
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 48
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607ec8827bf876e4fb73671946fa0ccd
+      internalID: 479114166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_117
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 47
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e998a1bc5cc624dbcb9f6b00bfa29a
+      internalID: 340034692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_118
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 48
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36dbb8a74f837fd4c88744540c46b45b
+      internalID: 606718815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_119
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 47
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21ffe08cdd758a4c98c4e6210625337
+      internalID: 1691848653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_120
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 46
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a4647e9018bd64fb4635f143aef7af
+      internalID: -507726482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_121
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 49
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98f5989e1a9aab45bfd114dfd61c8fa
+      internalID: 1752566646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_122
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 48
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d46a03ff24bf5e4bb8e2ad1aee0fa52
+      internalID: 1292376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_123
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 47
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c991ebe1762033b468130b9d3cede366
+      internalID: -2103668426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_124
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 48
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50cee287cf67ce5438913ddc47bacc43
+      internalID: -517034714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_125
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 47
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91174434fd4775348b7d23dc918328ac
+      internalID: -1011177733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_126
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 46
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7580eb95768dbe4469f98794f763f557
+      internalID: -1302001539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_127
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 49
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfab8e189808ec47b90b07a4ae49a7d
+      internalID: -887236781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_128
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 48
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e88cb4ba362464cb11e9eba3b85216
+      internalID: -1203689366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_129
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 47
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c89233071c367042a8ada7e8b9fd42e
+      internalID: -1310649511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_130
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 47
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0a9ba56fa33304390e275cf90328aa
+      internalID: -1115614519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_131
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 47
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2349ab554254e054395c4a8f42eed60e
+      internalID: 610812197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_132
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 47
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49133133b917c8340b8c101968df3432
+      internalID: -371039679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_133
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 47
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88901a293fa526488141fe08a81bac8
+      internalID: 708885863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_134
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 12
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d247f073b3ff9af48856357261fe998c
+      internalID: -367889460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_135
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 12
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7106c1240a8ac704e88d2e82fdd92819
+      internalID: 158211538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_136
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 12
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d70725c6f98ca4da54f20e1fcac7ac
+      internalID: -469931546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_137
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 12
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722bd2ad0007c4d44bb7463dc1dead93
+      internalID: 151060755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_138
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 12
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812cf4d7461fe604a80807aa857ef4bc
+      internalID: -1796683338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_139
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 12
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b88ab0c889355439d210727e68836f
+      internalID: -1050575779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_140
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 12
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c318fe6244ab3f4f90ae61221eae090
+      internalID: 649084054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_141
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 12
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c690812d7fff664885d4c374daf0411
+      internalID: 1908598791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_142
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 13
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b846c2aa9fe6413438094b2ffe2f1f3e
+      internalID: -1587769802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_143
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 12
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55d4de448877f64bab1e7c554cb6e4a
+      internalID: -1660576268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_144
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 12
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd4e0ad27f66c241a15e9a84bf78aa8
+      internalID: 965408838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_145
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 13
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b14c8c8ca6517c41b64995dc60c5882
+      internalID: -1930458219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_146
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 12
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7f569d023c12f40838414f8654d729
+      internalID: 37916581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_147
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 12
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577d418e6f37c624c9e7de3695df63c2
+      internalID: -847884350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_148
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 13
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397351ffaa2b7d44b99d44582177250e
+      internalID: -1296258264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_149
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 12
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c03384f3204ba640ab5005e92dd4b97
+      internalID: -978361752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_150
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 12
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a89c305f430fb641aa07e7e6aae4493
+      internalID: 273534897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_151
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 13
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffedd82ae91abf4180c57ec48787a29
+      internalID: -2064044977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_152
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 12
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f0bb630b637cb4d8bda53813f3ed5c
+      internalID: 1502977289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_153
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 12
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45a6641022fbdf4c9fd251f1f718249
+      internalID: -398634837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2371d054cfb72c1438c4a1f74be16f01
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_101: 1133887341
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_22: 1774468557
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_116: 479114166
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_149: -978361752
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_97: 113864531
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_10: -742529885
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_75: 1673236386
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_103: -506567021
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_30: -834819635
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_72: -775410801
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_142: -1587769802
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_41: 542782958
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_66: -493018526
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_124: -517034714
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_78: 1887615344
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_132: -371039679
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_67: 1170222678
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_35: 1424857931
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_3: 1330236559
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_39: 1585364933
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_5: -1114152869
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_69: 699041386
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_46: 2036424491
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_32: 1107777727
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_87: -382293531
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_98: 1279113589
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_143: -1660576268
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_88: -1317438192
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_120: -507726482
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_25: -1487054898
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_58: -559359017
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_50: 1526800505
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_85: 1648081909
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_77: -1648291705
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_16: 924489825
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_145: -1930458219
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_104: -2118240807
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_95: -2091389664
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_118: 606718815
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_129: -1310649511
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_133: 708885863
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_109: -596395426
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_29: 1586965652
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_1: 50133904
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_125: -1011177733
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_83: 1262434414
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_111: 1307464566
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_65: -652226024
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_12: -580065847
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_140: 649084054
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_14: 76619888
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_86: 1083629217
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_84: -251855669
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_53: -1932578154
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_36: 1328599622
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_31: 2041584626
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_49: 380620686
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_37: -49999328
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_99: 1372264544
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_123: -2103668426
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_11: 1338463243
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_76: 2012775194
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_62: -1616518937
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_126: -1302001539
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_80: -469511792
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_45: -1168656113
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_81: -206134062
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_119: 1691848653
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_13: -280389956
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_24: 403015423
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_17: 407263502
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_153: -398634837
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_20: 1320445553
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_27: 1397142299
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_33: 1681420785
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_44: 283869718
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_96: 1299442818
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_34: 1359930409
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_42: 1770049700
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_110: -1379465133
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_48: -1972032116
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_26: -238871573
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_55: 595017478
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_28: 2124435206
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_152: 1502977289
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_18: 813964874
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_135: 158211538
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_64: 701884901
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_8: -1593053988
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_100: -947263185
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_74: -1682415967
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_130: -1115614519
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_51: 1020074158
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_144: 965408838
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_59: 102550601
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_139: -1050575779
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_134: -367889460
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_102: -1848506706
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_79: -1165730404
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_150: 273534897
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_108: 1233884089
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_128: -1203689366
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_112: 803468847
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_82: -798847429
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_131: 610812197
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_148: -1296258264
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_117: 340034692
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_52: 1063882701
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_68: 300890422
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_91: -69677759
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_38: -137213294
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_70: 1550635590
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_106: -301024610
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_115: -580407371
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_54: -1221831778
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_107: -1505151047
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_146: 37916581
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_2: -1376011663
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_15: -1851362385
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_57: 1449362592
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_63: 990540632
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_19: 1918179625
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_94: -1595344029
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_60: 2002825872
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_40: -35949458
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_151: -2064044977
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_71: 595001250
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_9: -1813560851
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_61: 1130603748
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_56: -1659220840
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_7: -226938106
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_47: 309715885
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_73: 1650285755
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_113: -1290332053
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_23: 472470300
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_136: -469931546
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_138: -1796683338
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_147: -847884350
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_0: -888585983
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_92: 1050161275
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_114: -96680197
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_89: -148878960
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_121: 1752566646
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_4: 1250906692
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_21: 158063972
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_122: 1292376
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_141: 1908598791
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_90: 1290901802
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_105: 2967932
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_137: 151060755
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_6: -1832156449
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_127: -887236781
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_43: -103455810
+      Nintendo Switch - Octopath Traveler - Lianna Vestal of Galdera_93: 960345858
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
