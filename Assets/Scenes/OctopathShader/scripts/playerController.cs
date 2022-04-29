@@ -10,13 +10,22 @@ public class playerController : MonoBehaviour
     private Vector3 movement;
     private bool m_FacingRight = true;
     float velocity = 0f;
+    bool isLeft;
+
+    public GameObject healVFX;
 
     Animator Animator;
+
+    public Sprite spLeft;
+    public Sprite spRight;
+
+    SpriteRenderer spriteRenderer;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
         Animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     private void Update()
@@ -42,11 +51,28 @@ public class playerController : MonoBehaviour
 
         if (movement.z == 0)
         {
-            Animator.SetFloat("velocityZ", 0f);
+            if (isLeft)
+            {
+                Animator.SetFloat("velocityZ", -.1f);
+            }
+            else if (!isLeft)
+            {
+                Animator.SetFloat("velocityZ", .1f);
+            }
         }
         else if (movement.z != 0)
         {
             Animator.SetFloat("velocityZ", movement.z * 1f);
+            if (movement.z > 0 && isLeft)
+            {
+                isLeft = false;
+                spriteRenderer.sprite = spRight;
+            }
+            else if (movement.z < 0 && !isLeft)
+            {
+                isLeft = true;
+                spriteRenderer.sprite = spLeft;
+            }
         }
 
         if (movement.x == 0)
@@ -58,6 +84,35 @@ public class playerController : MonoBehaviour
             Animator.SetFloat("velocityX", movement.x * 1f);
         }
 
+
+        if (Input.GetMouseButtonDown(0) && isLeft)
+        {
+            Animator.SetTrigger("healLeft");
+            StartCoroutine(Heal(isLeft));
+
+        }
+        else if (Input.GetMouseButtonDown(0) && !isLeft)
+        {
+            Animator.SetTrigger("healRight");
+            StartCoroutine(Heal(isLeft));
+        }
+
+    }
+
+    IEnumerator Heal(bool isLeft)
+    {
+        GameObject go;
+        if (isLeft)
+        {
+            go = Instantiate(healVFX, new Vector3(transform.localPosition.x, 0, transform.localPosition.z - 1), Quaternion.identity);
+        }
+        else
+        {
+            go = Instantiate(healVFX, new Vector3(transform.localPosition.x, 0, transform.localPosition.z + 1), Quaternion.identity);
+        }
+        yield return new WaitForSeconds(5f);
+
+        Destroy(go);
     }
 
     private void FixedUpdate()
