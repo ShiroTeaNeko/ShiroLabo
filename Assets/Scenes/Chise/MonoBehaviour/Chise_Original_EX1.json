@@ -1,0 +1,48 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -657477701292886207
+  },
+  "m_Name": "Chise_Original_EX1",
+  "m_Version": 0,
+  "m_Tracks": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2395291834043710646
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1014394473691241547
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1261025129280873264
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 555036739572046093
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1879276142711596146
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7891318276451631848
+    }
+  ],
+  "m_FixedDuration": 0.0,
+  "m_EditorSettings": {
+    "m_Framerate": 30.0
+  },
+  "m_DurationMode": 0,
+  "m_MarkerTrack": {
+    "m_FileID": 0,
+    "m_PathID": 1857502845948245573
+  }
+}

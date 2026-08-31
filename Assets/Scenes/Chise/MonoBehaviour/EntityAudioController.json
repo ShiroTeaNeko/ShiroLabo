@@ -1,0 +1,20 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3766738835692473036
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -4376215522690898347
+  },
+  "m_Name": "",
+  "AudioPlayer": {
+    "m_FileID": 0,
+    "m_PathID": -2864273037743258025
+  },
+  "VoicePlayer": {
+    "m_FileID": 0,
+    "m_PathID": 1027610001185246382
+  }
+}

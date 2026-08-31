@@ -1,0 +1,30 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 4554676352285796699
+  },
+  "m_Name": "PPPV_Lobby_Kayoko",
+  "components": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 5511795942856927693
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2004500540522542900
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8465052241740701401
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6739008204335653367
+    }
+  ]
+}

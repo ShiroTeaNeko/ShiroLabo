@@ -1,0 +1,59 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3766738835692473036
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -690985068107499784
+  },
+  "m_Name": "",
+  "MouthRenderer": {
+    "m_FileID": 0,
+    "m_PathID": 4803316149330406678
+  },
+  "MouthMaterialIndex": 2,
+  "MouthDefaultUV": {
+    "x": 0.125,
+    "y": 0.5
+  },
+  "fxParentBones": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 7187441776087479816
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7797351262949600745
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1507858881120348945
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2443307256422120419
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2261834230092968628
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -915841776847363525
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2652854818423724730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4986362768214294107
+    }
+  ]
+}

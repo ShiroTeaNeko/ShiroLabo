@@ -117,7 +117,7 @@ public class playerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.velocity = movement;
+        rb.linearVelocity = movement;
     }
 
 

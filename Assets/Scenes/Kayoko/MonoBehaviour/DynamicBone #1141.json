@@ -1,0 +1,193 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8267711309447559047
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8407979380618123730
+  },
+  "m_Name": "",
+  "Character": {
+    "m_FileID": 0,
+    "m_PathID": -8349429909482580227
+  },
+  "Root": {
+    "m_FileID": 0,
+    "m_PathID": 1475784634832019145
+  },
+  "UpdateRate": 60.0,
+  "Damping": 0.25,
+  "DampingDistrib": {
+    "m_Curve": [
+      {
+        "time": 0.0,
+        "value": 0.1,
+        "inSlope": 0.9,
+        "outSlope": 0.9,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.333333343
+      },
+      {
+        "time": 1.0,
+        "value": 1.0,
+        "inSlope": 0.9,
+        "outSlope": 0.9,
+        "weightedMode": 0,
+        "inWeight": 0.333333343,
+        "outWeight": 0.0
+      }
+    ],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 4
+  },
+  "Elasticity": 0.85,
+  "ElasticityDistrib": {
+    "m_Curve": [
+      {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": -0.98,
+        "outSlope": -0.98,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.333333343
+      },
+      {
+        "time": 1.0,
+        "value": 0.02,
+        "inSlope": -0.98,
+        "outSlope": -0.98,
+        "weightedMode": 0,
+        "inWeight": 0.333333343,
+        "outWeight": 0.0
+      }
+    ],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 4
+  },
+  "Stiffness": 0.7,
+  "StiffnessDistrib": {
+    "m_Curve": [
+      {
+        "time": 0.0,
+        "value": 0.9,
+        "inSlope": -0.299999952,
+        "outSlope": -0.299999952,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.333333343
+      },
+      {
+        "time": 1.0,
+        "value": 0.6,
+        "inSlope": -0.299999952,
+        "outSlope": -0.299999952,
+        "weightedMode": 0,
+        "inWeight": 0.333333343,
+        "outWeight": 0.0
+      }
+    ],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 4
+  },
+  "Inert": 1.0,
+  "InertDistrib": {
+    "m_Curve": [
+      {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.007077072,
+        "outSlope": 0.007077072,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.06268657
+      },
+      {
+        "time": 0.509316444,
+        "value": 0.94836086,
+        "inSlope": -0.2672742,
+        "outSlope": -0.2672742,
+        "weightedMode": 0,
+        "inWeight": 0.333333343,
+        "outWeight": 0.0497568659
+      },
+      {
+        "time": 1.0,
+        "value": 0.85,
+        "inSlope": -0.0127146365,
+        "outSlope": -0.0127146365,
+        "weightedMode": 0,
+        "inWeight": 0.07892898,
+        "outWeight": 0.0
+      }
+    ],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 4
+  },
+  "IsInertRatioEnable": 0,
+  "PositiveInertX": 0.0,
+  "NegativeInertX": 0.0,
+  "PositiveInertY": 0.0,
+  "NegativeInertY": 0.0,
+  "PositiveInertZ": 0.0,
+  "NegativeInertZ": 0.0,
+  "Radius": 0.0,
+  "RadiusDistrib": {
+    "m_Curve": [
+      {
+        "time": 0.0,
+        "value": 0.0,
+        "inSlope": 1.0,
+        "outSlope": 1.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+      },
+      {
+        "time": 1.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+      }
+    ],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 4
+  },
+  "EndLength": 0.0,
+  "EndOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": -0.2
+  },
+  "Gravity": {
+    "x": 0.0,
+    "y": -30.0,
+    "z": 0.0
+  },
+  "Force": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "Colliders": [],
+  "Exclusions": [],
+  "FreezeAxis": 0,
+  "DistantDisable": 0,
+  "ReferenceObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "DistanceToObject": 20.0,
+  "LimitAxisY": 1
+}

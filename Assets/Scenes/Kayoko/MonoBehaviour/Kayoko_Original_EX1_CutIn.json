@@ -1,0 +1,80 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -657477701292886207
+  },
+  "m_Name": "Kayoko_Original_EX1_CutIn",
+  "m_Version": 0,
+  "m_Tracks": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2549630290597914059
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1401930946838575073
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8268085034029313092
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7587401037022202740
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6650121066548054170
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3253690562327991394
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8728728506014292593
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2119477802131722331
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4442426551824681756
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1804460986929401552
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4971489106812074276
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -160405665026939700
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7128611248357937351
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1832849707301777433
+    }
+  ],
+  "m_FixedDuration": 0.0,
+  "m_EditorSettings": {
+    "m_Framerate": 30.0
+  },
+  "m_DurationMode": 0,
+  "m_MarkerTrack": {
+    "m_FileID": 0,
+    "m_PathID": -6364825344648676214
+  }
+}

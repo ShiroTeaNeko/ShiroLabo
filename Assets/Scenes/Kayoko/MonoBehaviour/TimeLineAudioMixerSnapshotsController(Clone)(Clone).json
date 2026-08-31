@@ -1,0 +1,20 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 4505305586192795492
+  },
+  "m_Name": "TimeLineAudioMixerSnapshotsController(Clone)(Clone)",
+  "AudioMixerSnapshot": {
+    "AudioMixerSnapshot": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "TimeToReach": 0.0
+  },
+  "DefaultSnapShot": 1
+}

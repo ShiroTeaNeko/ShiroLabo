@@ -1,0 +1,103 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7475595952545616480
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8927237529964508998
+  },
+  "m_Name": "",
+  "UpCurveList": [
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 2.76562119,
+          "outSlope": 2.76562119,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.333333343
+        },
+        {
+          "time": 0.5491199,
+          "value": 1.51865757,
+          "inSlope": -0.0113338241,
+          "outSlope": -0.0113338241,
+          "weightedMode": 0,
+          "inWeight": 0.144620612,
+          "outWeight": 0.333333343
+        },
+        {
+          "time": 1.0,
+          "value": 0.0,
+          "inSlope": -3.368207,
+          "outSlope": -3.368207,
+          "weightedMode": 0,
+          "inWeight": 0.333333343,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    }
+  ],
+  "RightCurveList": [
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.333333343
+        },
+        {
+          "time": 1.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.333333343,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 0
+    }
+  ],
+  "ForwardCurveList": [
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 1.0,
+          "outSlope": 1.0,
+          "weightedMode": 0,
+          "inWeight": 0.333333343,
+          "outWeight": 0.333333343
+        },
+        {
+          "time": 1.0,
+          "value": 1.0,
+          "inSlope": 1.0,
+          "outSlope": 1.0,
+          "weightedMode": 0,
+          "inWeight": 0.333333343,
+          "outWeight": 0.333333343
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 0
+    }
+  ],
+  "ObjectToHideWhenDestroyed": []
+}

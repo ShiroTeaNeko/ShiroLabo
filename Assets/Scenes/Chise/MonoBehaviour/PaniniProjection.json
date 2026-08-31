@@ -1,0 +1,26 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 761973232011638931
+  },
+  "m_Name": "PaniniProjection",
+  "active": 1,
+  "m_AdvancedMode": 0,
+  "distance": {
+    "m_OverrideState": 1,
+    "m_Value": 1.0,
+    "min": 0.0,
+    "max": 1.0
+  },
+  "cropToFit": {
+    "m_OverrideState": 1,
+    "m_Value": 1.0,
+    "min": 0.0,
+    "max": 1.0
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1807116211447702260
+  },
+  "m_Name": "LiftGammaGain",
+  "active": 1,
+  "m_AdvancedMode": 0,
+  "lift": {
+    "m_OverrideState": 0,
+    "m_Value": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0,
+      "w": 0.0
+    }
+  },
+  "gamma": {
+    "m_OverrideState": 0,
+    "m_Value": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0,
+      "w": 0.0
+    }
+  },
+  "gain": {
+    "m_OverrideState": 1,
+    "m_Value": {
+      "x": 0.944175541,
+      "y": 0.9581317,
+      "z": 1.0,
+      "w": 0.0
+    }
+  }
+}

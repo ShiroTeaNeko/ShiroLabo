@@ -1,0 +1,202 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1863582048331229515
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8407979380618123730
+  },
+  "m_Name": "",
+  "Character": {
+    "m_FileID": 0,
+    "m_PathID": 2362972346833730765
+  },
+  "Root": {
+    "m_FileID": 0,
+    "m_PathID": 5627926829435616342
+  },
+  "UpdateRate": 60.0,
+  "Damping": 0.5,
+  "DampingDistrib": {
+    "m_Curve": [
+      {
+        "time": 0.0,
+        "value": 0.3,
+        "inSlope": 0.009797542,
+        "outSlope": 0.009797542,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0760754049
+      },
+      {
+        "time": 0.768717349,
+        "value": 0.479815781,
+        "inSlope": 0.7163637,
+        "outSlope": 0.7163637,
+        "weightedMode": 0,
+        "inWeight": 0.04344117,
+        "outWeight": 0.333333343
+      },
+      {
+        "time": 1.0,
+        "value": 0.9,
+        "inSlope": 2.7352457,
+        "outSlope": 2.7352457,
+        "weightedMode": 0,
+        "inWeight": 0.07902205,
+        "outWeight": 0.0
+      }
+    ],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 4
+  },
+  "Elasticity": 0.5,
+  "ElasticityDistrib": {
+    "m_Curve": [
+      {
+        "time": 0.0,
+        "value": 0.6,
+        "inSlope": -0.400000036,
+        "outSlope": -0.400000036,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.333333343
+      },
+      {
+        "time": 1.0,
+        "value": 0.2,
+        "inSlope": -0.400000036,
+        "outSlope": -0.400000036,
+        "weightedMode": 0,
+        "inWeight": 0.333333343,
+        "outWeight": 0.0
+      }
+    ],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 4
+  },
+  "Stiffness": 0.3,
+  "StiffnessDistrib": {
+    "m_Curve": [
+      {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": -0.9,
+        "outSlope": -0.9,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.333333343
+      },
+      {
+        "time": 1.0,
+        "value": 0.1,
+        "inSlope": -0.9,
+        "outSlope": -0.9,
+        "weightedMode": 0,
+        "inWeight": 0.333333343,
+        "outWeight": 0.0
+      }
+    ],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 4
+  },
+  "Inert": 1.0,
+  "InertDistrib": {
+    "m_Curve": [
+      {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": -0.00585316867,
+        "outSlope": -0.00585316867,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0686132237
+      },
+      {
+        "time": 0.7541026,
+        "value": 0.9285205,
+        "inSlope": -0.283533067,
+        "outSlope": -0.283533067,
+        "weightedMode": 0,
+        "inWeight": 0.333333343,
+        "outWeight": 0.09971568
+      },
+      {
+        "time": 1.0,
+        "value": 0.7,
+        "inSlope": -1.0498879,
+        "outSlope": -1.0498879,
+        "weightedMode": 0,
+        "inWeight": 0.0459305644,
+        "outWeight": 0.0
+      }
+    ],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 4
+  },
+  "IsInertRatioEnable": 0,
+  "PositiveInertX": 0.0,
+  "NegativeInertX": 0.0,
+  "PositiveInertY": 0.0,
+  "NegativeInertY": 0.0,
+  "PositiveInertZ": 0.0,
+  "NegativeInertZ": 0.0,
+  "Radius": 0.0,
+  "RadiusDistrib": {
+    "m_Curve": [
+      {
+        "time": 0.0,
+        "value": 0.0,
+        "inSlope": 1.0,
+        "outSlope": 1.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+      },
+      {
+        "time": 1.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.0
+      }
+    ],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 4
+  },
+  "EndLength": 0.0,
+  "EndOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": -0.2
+  },
+  "Gravity": {
+    "x": 0.0,
+    "y": -30.0,
+    "z": 0.0
+  },
+  "Force": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "Colliders": [],
+  "Exclusions": [],
+  "FreezeAxis": 0,
+  "DistantDisable": 0,
+  "ReferenceObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "DistanceToObject": 20.0,
+  "LimitAxisY": 1
+}

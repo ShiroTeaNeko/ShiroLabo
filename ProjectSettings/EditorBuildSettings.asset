@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/OctopathShader/OctopathShader.unity
     guid: 62978ef6abc2193479effad2b167d952
+  - enabled: 1
+    path: Assets/ExplorePhysics/PHYPHYsics.unity
+    guid: e3a156dd38bf4e54885bd9bae9520c3b
   m_configObjects: {}

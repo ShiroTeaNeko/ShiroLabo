@@ -1,0 +1,72 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -657477701292886207
+  },
+  "m_Name": "Chise_Original_EX1_CutIn",
+  "m_Version": 0,
+  "m_Tracks": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4954133088907186569
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5468872425622892116
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1634594292733763974
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1674352095512399043
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -127952065765013616
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 865813605148468861
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5661252599084951053
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7355969750052785130
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4364311653766254179
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4803774719593731713
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5425977092843129188
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -213616930120429002
+    }
+  ],
+  "m_FixedDuration": 4.0,
+  "m_EditorSettings": {
+    "m_Framerate": 30.0
+  },
+  "m_DurationMode": 1,
+  "m_MarkerTrack": {
+    "m_FileID": 0,
+    "m_PathID": -2257591725428947669
+  }
+}

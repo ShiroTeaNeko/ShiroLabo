@@ -1,0 +1,52 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -657477701292886207
+  },
+  "m_Name": "Kayoko_Original_Public1",
+  "m_Version": 0,
+  "m_Tracks": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1819463471181038424
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2468120772548004920
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1131288903646239712
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2179590689437495801
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1359894217385816444
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8229924024282813555
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8784809667164659304
+    }
+  ],
+  "m_FixedDuration": 0.0,
+  "m_EditorSettings": {
+    "m_Framerate": 30.0
+  },
+  "m_DurationMode": 0,
+  "m_MarkerTrack": {
+    "m_FileID": 0,
+    "m_PathID": 1608858135012161799
+  }
+}

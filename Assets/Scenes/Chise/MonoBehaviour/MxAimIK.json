@@ -1,0 +1,66 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3766738835692473036
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1043142335958249274
+  },
+  "m_Name": "",
+  "TransitionSpeed": 4.0,
+  "rightArms": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -1235021977737759797
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2036549334536192004
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2556477550881136029
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2261834230092968628
+    }
+  ],
+  "leftArms": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4375921280763468394
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5880602474879356978
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 667786873751081490
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2443307256422120419
+    }
+  ],
+  "target": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mainWeapon": {
+    "m_FileID": 0,
+    "m_PathID": -1065168032507422637
+  },
+  "subWeapon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "iterations": 4,
+  "margin": 0.001,
+  "aimIKType": 3,
+  "customMinRotationDegree": -1.0,
+  "customMaxRotationDegree": 1.0
+}

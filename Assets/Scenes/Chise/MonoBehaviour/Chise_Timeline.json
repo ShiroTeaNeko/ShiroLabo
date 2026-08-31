@@ -1,0 +1,68 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -657477701292886207
+  },
+  "m_Name": "Chise_Timeline",
+  "m_Version": 0,
+  "m_Tracks": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 5153105193462112106
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4594364710401647349
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1428490600845938755
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3350734914066812112
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5122611148366226593
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4428844458930028768
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2527985675059415889
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5871972648740523184
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7413272660798908333
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6938276914986365099
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6443588778591644485
+    }
+  ],
+  "m_FixedDuration": 14.933333333333334,
+  "m_EditorSettings": {
+    "m_Framerate": 30.0
+  },
+  "m_DurationMode": 0,
+  "m_MarkerTrack": {
+    "m_FileID": 0,
+    "m_PathID": 1363740797889341300
+  }
+}

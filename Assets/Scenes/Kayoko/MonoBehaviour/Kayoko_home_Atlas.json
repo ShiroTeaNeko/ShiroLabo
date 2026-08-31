@@ -1,0 +1,26 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1008803689438726606
+  },
+  "m_Name": "Kayoko_home_Atlas",
+  "atlasFile": {
+    "m_FileID": 0,
+    "m_PathID": -13821618711911393
+  },
+  "materials": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1934548698244664466
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2874653969585751112
+    }
+  ]
+}

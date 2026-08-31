@@ -1,0 +1,56 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -657477701292886207
+  },
+  "m_Name": "Kayoko_Timeline",
+  "m_Version": 0,
+  "m_Tracks": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 8280478763042277906
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5494709761180408936
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3065165461492060246
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7654221734703111080
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6062129123448859688
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4907500981693998862
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7037264701652446647
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2127348955620009777
+    }
+  ],
+  "m_FixedDuration": 20.0,
+  "m_EditorSettings": {
+    "m_Framerate": 30.0
+  },
+  "m_DurationMode": 0,
+  "m_MarkerTrack": {
+    "m_FileID": 0,
+    "m_PathID": -6314138789955445052
+  }
+}

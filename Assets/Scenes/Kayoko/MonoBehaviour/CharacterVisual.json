@@ -1,0 +1,100 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7419412468293872434
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8139073495227833177
+  },
+  "m_Name": "",
+  "Floater": {
+    "m_FileID": 0,
+    "m_PathID": -181056959828330859
+  },
+  "BodyBone": {
+    "m_FileID": 0,
+    "m_PathID": -3972996738811571879
+  },
+  "HeadBone": {
+    "m_FileID": 0,
+    "m_PathID": -4182431032722847445
+  },
+  "ShotBone": {
+    "m_FileID": 0,
+    "m_PathID": -7265878182625620854
+  },
+  "Shot2Bone": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "Shot3Bone": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "ExtraBone": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "Extra2Bone": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "Extra3Bone": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "BodyBoneForward": 0,
+  "HeadBoneForward": 0,
+  "ShotBoneForward": 0,
+  "Shot2BoneForward": 0,
+  "Shot3BoneForward": 0,
+  "TurretHorizontal": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "TurretVertical": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "TurretHorizontalForward": 0,
+  "TurretVerticalForward": 0,
+  "DeathShaderAfterAniClip": 1,
+  "DeathShaderAniOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "AnimationControlOfFormList": [],
+  "PlayableDirector": {
+    "m_FileID": 0,
+    "m_PathID": -6906397227143326658
+  },
+  "NormalAttackSkillPlayableAssetList": [],
+  "PublicSkillPlayableAssetList": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 6809162740467147273
+    }
+  ],
+  "ExSkillPlayableAssetList": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -8354330271699382919
+    }
+  ],
+  "ExSkillCutInPlayableAssetList": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 8892609605512252860
+    }
+  ],
+  "OPPlayableAsset": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "AppearancePlayableAsset": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

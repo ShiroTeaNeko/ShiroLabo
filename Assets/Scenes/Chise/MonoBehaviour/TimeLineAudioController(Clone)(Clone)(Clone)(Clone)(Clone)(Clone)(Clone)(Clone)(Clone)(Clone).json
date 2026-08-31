@@ -1,0 +1,53 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7321483614575953468
+  },
+  "m_Name": "TimeLineAudioController(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)",
+  "PlaySoundManager": 0,
+  "Audio": 0,
+  "AudioData": {
+    "GroupId": 6,
+    "IgnoreInterruptDelay": 1,
+    "IgnoreInterruptPlay": 1,
+    "AudioMixerGroup": {
+      "m_FileID": 2,
+      "m_PathID": 4624481835027736306
+    },
+    "AudioMixerSnapshot": {
+      "AudioMixerSnapshot": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "TimeToReach": 0.0
+    },
+    "AudioClips": [
+      {
+        "m_FileID": 21,
+        "m_PathID": 7522495109010695175
+      }
+    ],
+    "CustomCurves": [],
+    "BypassEffects": 0,
+    "BypassListenerEffects": 0,
+    "BypassReverbZones": 0,
+    "Loop": 0,
+    "Priority": 90,
+    "Volume": 0.1,
+    "Pitch": -3.0,
+    "Delay": 0.0,
+    "StereoPan": 0.0,
+    "SpatialBlend": 1.0,
+    "ReverbZoneMix": 1.0,
+    "DopplerLevel": 1.0,
+    "Spread": 0.0,
+    "VolumeRolloff": 1,
+    "MinDistance": 1.0,
+    "MaxDistance": 500.0
+  }
+}
