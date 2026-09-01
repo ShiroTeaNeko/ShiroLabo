@@ -2,5 +2,11 @@ using UnityEngine;
 
 public class pickaxe : MonoBehaviour
 {
-    void DoDamage
+    //void DoDamage
+    public AudioSource PickaxeSound;
+
+    public void PlaySound()
+    {
+        PickaxeSound.Play();
+    }
 }

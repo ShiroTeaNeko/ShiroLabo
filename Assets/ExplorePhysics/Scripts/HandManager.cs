@@ -1,16 +1,17 @@
+using System;
 using UnityEngine;
 
 public class HandManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public AudioSource PickaxeSound;
+    public AudioClip PickaxeClip;
+
+    private void Start()
     {
-        
     }
 
-    // Update is called once per frame
-    void Update()
+    public void PlaySound()
     {
-        
+        PickaxeSound.PlayOneShot(PickaxeClip);
     }
 }

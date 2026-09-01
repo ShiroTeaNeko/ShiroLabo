@@ -23,7 +23,15 @@ public class FirstPersonController : MonoBehaviour
     [SerializeField] private string mouseXInput = "Mouse X";
     [SerializeField] private string mouseYInput = "Mouse Y";
     [SerializeField] private KeyCode sprintKey =  KeyCode.LeftShift;
+    [SerializeField] private bool isSprinting = false;
     [SerializeField] private KeyCode jumpKey =  KeyCode.Space;
+    [SerializeField] private KeyCode crouchKey =  KeyCode.LeftControl;
+    [SerializeField] private bool isCrouching = false;
+    [SerializeField] private bool isSliding = false;
+    [SerializeField] private float slideSpeed = 12f;
+    private Vector3 slideVelocity;
+    [SerializeField] private float slideDeceleration = 8f;
+    [SerializeField] private float minSlideSpeed = 2f;
     
     [Header("Footstep Sounds")]
     [SerializeField] private AudioSource footstepSource;
@@ -37,10 +45,16 @@ public class FirstPersonController : MonoBehaviour
     [SerializeField] private KeyCode actionKey = KeyCode.Mouse0;
     [SerializeField] private Animator handAnimator;
 
+    [Header("Camera Settings")]
+    private Camera _mainCamera;
+    [SerializeField] private float baseCameraFov = 70.0f;
+    [SerializeField] private float targetCameraFov = 80.0f;
+    
+    
+    
     private int _lastPlayedIndex = -1;
     private bool _isMoving;
     private float _nextStepTime;
-    private Camera _mainCamera;
     private float _verticalRotation;
     private Vector3 _currentMovement = Vector3.zero;
     private CharacterController _characterController;
@@ -59,13 +73,15 @@ public class FirstPersonController : MonoBehaviour
         HandleRotation();
         HandleFootsteps();
         HandleMining();
+        HandleCameraSettings();
+        HandleCrouchAndSlide();
     }
 
     void HandleMovement()
     {
         float verticalInput = Input.GetAxis(verticalMoveInput);
         float horizontalInput = Input.GetAxis(horizontalMoveInput);
-        float speedMultiplier = Input.GetKey(sprintKey) ? sprintMultiplier : 1.0f;
+        float speedMultiplier = isSprinting ? sprintMultiplier : 1.0f;
         float verticalSpeed = verticalInput * walkSpeed * speedMultiplier;
         float horizontalSpeed = horizontalInput * walkSpeed * speedMultiplier;
         
@@ -73,12 +89,37 @@ public class FirstPersonController : MonoBehaviour
         horizontalMovement = transform.rotation * horizontalMovement;
         
         HandleGravityAndJumping();
-        
-        _currentMovement.x = horizontalMovement.x;
-        _currentMovement.z = horizontalMovement.z;
+
+        if (isSliding)
+        {
+            _currentMovement.x = slideVelocity.x;
+            _currentMovement.z = slideVelocity.z;
+            
+            slideVelocity = Vector3.MoveTowards(slideVelocity, Vector3.zero, slideDeceleration * Time.deltaTime);
+
+            if (slideVelocity.magnitude <= minSlideSpeed)
+            {
+                StopSlide();
+            }
+        }
+        else
+        {
+            _currentMovement.x = horizontalMovement.x;
+            _currentMovement.z = horizontalMovement.z;
+        }
         
         _characterController.Move(_currentMovement * Time.deltaTime);
         _isMoving = verticalInput != 0 || horizontalInput != 0;
+        
+        if (Input.GetKeyDown(sprintKey))
+        {
+            isSprinting = !isSprinting;
+        }
+
+        if (verticalInput <= 0)
+        {
+            isSprinting = false;
+        }
     }
 
     void HandleGravityAndJumping()
@@ -110,7 +151,7 @@ public class FirstPersonController : MonoBehaviour
 
     void HandleFootsteps()
     {
-        float currentStepInterval = Input.GetKey(sprintKey) ? sprintStepIntervals : walkStepIntervals;
+        float currentStepInterval = isSprinting ? sprintStepIntervals : walkStepIntervals;
 
         if (_characterController.isGrounded && _isMoving && Time.time > _nextStepTime && _characterController.velocity.magnitude > velocitythreshold)
         {
@@ -144,7 +185,103 @@ public class FirstPersonController : MonoBehaviour
     {
         if (Input.GetMouseButton(0))
         {
-            handAnimator.SetTrigger("DoAction");
+            handAnimator.SetBool("DoAction",  true);
+        }
+
+        if (Input.GetMouseButtonUp(0))
+        {
+            handAnimator.SetBool("DoAction",  false);
+        }
+    }
+
+    private bool rememberToSlide = false;
+    void HandleCrouchAndSlide()
+    {
+        if (!_characterController.isGrounded && Input.GetKeyDown(crouchKey))
+        {
+            rememberToSlide = true;
+        }
+        else if (_characterController.isGrounded && rememberToSlide)
+        {
+            StartSlide();
+            
+            rememberToSlide = false;
+        }
+        
+        if (Input.GetKeyDown(crouchKey))
+        {
+            if (isSprinting && _characterController.isGrounded)
+            {
+                StartSlide();
+            }
+            else
+            {
+                StartCrouch();
+            }
+        }
+
+        if (Input.GetKeyUp(crouchKey))
+        {
+            if (isSliding)
+            {
+                StopSlide();
+            }
+            else if (isCrouching)
+            {
+                StopCrouch();
+            }
+        }
+    }
+    
+    void StartCrouch()
+    {
+        isCrouching = true;
+
+        // Lower CharacterController
+        _characterController.height /= 2;
+        // Lower camera
+        //_mainCamera.transform.position = new Vector3(_mainCamera.transform.position.x, .25f, _mainCamera.transform.position.z);
+    }
+
+    void StopCrouch()
+    {
+        isCrouching = false;
+
+        // Restore CharacterController
+        _characterController.height *= 2;
+        //_characterController.height = Mathf.Lerp(.5f, 1.0f, Time.deltaTime);
+        // Restore camera
+        //_mainCamera.transform.position = new Vector3(_mainCamera.transform.position.x, .5f, _mainCamera.transform.position.z);
+    }
+
+    void StartSlide()
+    {
+        isSliding = true;
+        _characterController.height /= 2;
+        
+        slideVelocity = new Vector3(_currentMovement.x, 0, _currentMovement.z);
+
+        slideVelocity *= 3f;
+    }
+
+    void StopSlide()
+    {
+        isSliding = false;
+        // Restore CharacterController
+        _characterController.height *= 2;
+
+        slideVelocity = Vector3.Lerp(slideVelocity, Vector3.zero, slideSpeed * Time.deltaTime);
+    }
+
+    void HandleCameraSettings()
+    {
+        if (isSprinting)
+        {
+            _mainCamera.fieldOfView = Mathf.Lerp(_mainCamera.fieldOfView, targetCameraFov, Time.deltaTime);
+        }
+        else
+        {
+            _mainCamera.fieldOfView = Mathf.Lerp(_mainCamera.fieldOfView, baseCameraFov, Time.deltaTime * 3);
         }
     }
 }
