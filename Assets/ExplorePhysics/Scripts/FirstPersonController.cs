@@ -44,6 +44,7 @@ public class FirstPersonController : MonoBehaviour
     [Header("Tools")]
     [SerializeField] private KeyCode actionKey = KeyCode.Mouse0;
     [SerializeField] private Animator handAnimator;
+    [SerializeField] private Tool equippedTool;
 
     [Header("Camera Settings")]
     private Camera _mainCamera;
@@ -185,12 +186,12 @@ public class FirstPersonController : MonoBehaviour
     {
         if (Input.GetMouseButton(0))
         {
-            handAnimator.SetBool("DoAction",  true);
+            equippedTool.Attack();
         }
 
         if (Input.GetMouseButtonUp(0))
         {
-            handAnimator.SetBool("DoAction",  false);
+            equippedTool.StopAttack();
         }
     }
 
