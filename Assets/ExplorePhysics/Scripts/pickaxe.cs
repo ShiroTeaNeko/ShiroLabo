@@ -5,6 +5,7 @@ public class Pickaxe : Tool
 {
     //void DoDamage
     public AudioSource PickaxeSound;
+    public AudioClip PickaxeSoundClip;
 
 
     [SerializeField] private SphereCollider hitCollider;
@@ -16,11 +17,18 @@ public class Pickaxe : Tool
     {
         hitCollider.enabled = false;
     }
-    public void PlaySound()
+    public override void PlaySound()
     {
-        PickaxeSound.Play();
+        base.PlaySound();
+        PickaxeSound.PlayOneShot(PickaxeSoundClip);
     }
-    
+
+    public override void Inspect()
+    {
+        base.Inspect();
+        animator.SetTrigger("isInspecting");
+    }
+
     public override void Attack()
     {
         base.Attack();
@@ -39,9 +47,14 @@ public class Pickaxe : Tool
         base.SpecialAttack();
     }
 
+    protected override void InstanciateVFX()
+    {
+        base.InstanciateVFX();
+        Instantiate(hitVfxPrefab, hitPoint.transform.position, hitPoint.transform.rotation);
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         OnHit(other);
-        Instantiate(hitVfxPrefab, hitPoint.transform.position, hitPoint.transform.rotation);
     }
 }

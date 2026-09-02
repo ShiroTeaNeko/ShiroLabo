@@ -8,11 +8,23 @@ public abstract class Tool : MonoBehaviour
     
     protected readonly HashSet<IDamageable> hitTargets = new();
     
+    [SerializeField] ViewRecoil viewRecoil;
+    
     public bool IsAttacking { get; protected set; }
 
     public virtual void Attack()
     {
         hitTargets.Clear();
+    }
+
+    public virtual void Inspect()
+    {
+        
+    }
+
+    public virtual void PlaySound()
+    {
+        
     }
     
     public virtual void StopAttack()
@@ -21,6 +33,11 @@ public abstract class Tool : MonoBehaviour
 
     protected virtual void SpecialAttack()
     {
+    }
+
+    protected virtual void InstanciateVFX()
+    {
+        
     }
     
     protected virtual void OnHit(Collider target)
@@ -36,6 +53,12 @@ public abstract class Tool : MonoBehaviour
         if (!hitTargets.Add(damageable))
             return;
 
+        PlaySound();
+
+        InstanciateVFX();
+        
         damageable.TakeDamage(data.damage);
+        
+        viewRecoil.AddRecoil(1.0f);
     }
 }

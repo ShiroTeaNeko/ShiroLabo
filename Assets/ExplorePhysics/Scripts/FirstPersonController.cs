@@ -43,8 +43,10 @@ public class FirstPersonController : MonoBehaviour
     
     [Header("Tools")]
     [SerializeField] private KeyCode actionKey = KeyCode.Mouse0;
+    [SerializeField] private KeyCode inspectKey = KeyCode.F;
     [SerializeField] private Animator handAnimator;
     [SerializeField] private Tool equippedTool;
+    [SerializeField] private Animator allPurposeAnimator;
 
     [Header("Camera Settings")]
     private Camera _mainCamera;
@@ -73,7 +75,7 @@ public class FirstPersonController : MonoBehaviour
         HandleMovement();
         HandleRotation();
         HandleFootsteps();
-        HandleMining();
+        HandleTool();
         HandleCameraSettings();
         HandleCrouchAndSlide();
     }
@@ -182,7 +184,7 @@ public class FirstPersonController : MonoBehaviour
         footstepSource.Play();
     }
 
-    void HandleMining()
+    void HandleTool()
     {
         if (Input.GetMouseButton(0))
         {
@@ -192,6 +194,11 @@ public class FirstPersonController : MonoBehaviour
         if (Input.GetMouseButtonUp(0))
         {
             equippedTool.StopAttack();
+        }
+
+        if (Input.GetKeyDown(inspectKey))
+        {
+            
         }
     }
 

@@ -13,6 +13,9 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _ALPHABLEND_ON
+  - _ALPHATEST_ON
+  - _CFXR_FONT_COLORS
+  - _CFXR_HDR_BOOST
   - _CFXR_SINGLE_CHANNEL
   - _FADING_ON
   m_InvalidKeywords:
@@ -79,9 +82,9 @@ Material:
     - _Distort: 0.1
     - _DoubleDissolve: 0
     - _DstBlend: 10
-    - _EdgeFadePow: 1
+    - _EdgeFadePow: -2.07
     - _FadeAlongU: 0
-    - _HdrBoost: 0
+    - _HdrBoost: 1
     - _HdrMultiply: 2
     - _IndirectLightingMix: 0.5
     - _InvertDissolveTex: 0
@@ -93,17 +96,17 @@ Material:
     - _ShadowStrength: 0.5
     - _SingleChannel: 1
     - _SoftParticlesFadeDistanceFar: 1
-    - _SoftParticlesFadeDistanceNear: 0
+    - _SoftParticlesFadeDistanceNear: -2
     - _SrcBlend: 5
     - _UVDistortionAdd: 0
-    - _UseAlphaClip: 0
+    - _UseAlphaClip: 1
     - _UseBackLighting: 0
     - _UseDissolve: 0
     - _UseDissolveOffsetUV: 0
     - _UseEF: 0
     - _UseEmission: 0
     - _UseFB: 0
-    - _UseFontColor: 0
+    - _UseFontColor: 1
     - _UseGradientMap: 0
     - _UseLighting: 0
     - _UseLightingWorldPosOffset: 0
@@ -112,7 +115,7 @@ Material:
     - _UseSecondColor: 0
     - _UseUV2Distortion: 0
     - _UseUVDistortion: 0
-    - _ZWrite: 0
+    - _ZWrite: 1
     m_Colors:
     - _Color: {r: 2, g: 2, b: 2, a: 0}
     - _DissolveScroll: {r: 0, g: 0, b: 0, a: 0}
@@ -121,3 +124,4 @@ Material:
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _SoftParticlesFadeDistance: {r: 0, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1

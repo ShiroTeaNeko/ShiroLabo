@@ -3,7 +3,12 @@ guid: 158e6e731f24b1e42a3cfa39911be199
 ModelImporter:
   serializedVersion: 24501
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mt_Pickaxe
+    second: {fileID: 2100000, guid: 106c2b4168ecfc64c8c0f3e4fa046f48, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
