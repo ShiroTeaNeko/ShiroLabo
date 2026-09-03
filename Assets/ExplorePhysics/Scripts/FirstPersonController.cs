@@ -47,6 +47,7 @@ public class FirstPersonController : MonoBehaviour
     [SerializeField] private Animator handAnimator;
     [SerializeField] private Tool equippedTool;
     [SerializeField] private Animator allPurposeAnimator;
+    [SerializeField] private GameObject fakePickaxeInspect;
 
     [Header("Camera Settings")]
     private Camera _mainCamera;
@@ -72,12 +73,16 @@ public class FirstPersonController : MonoBehaviour
 
     private void Update()
     {
-        HandleMovement();
-        HandleRotation();
         HandleFootsteps();
         HandleTool();
         HandleCameraSettings();
         HandleCrouchAndSlide();
+    }
+
+    private void LateUpdate()
+    {
+        HandleMovement();
+        HandleRotation();
     }
 
     void HandleMovement()
@@ -188,6 +193,7 @@ public class FirstPersonController : MonoBehaviour
     {
         if (Input.GetMouseButton(0))
         {
+            ResetAndGoBackToTheTool();
             equippedTool.Attack();
         }
 
@@ -198,8 +204,21 @@ public class FirstPersonController : MonoBehaviour
 
         if (Input.GetKeyDown(inspectKey))
         {
-            
+            equippedTool.animator.Rebind();
+            allPurposeAnimator.enabled = true;
+            allPurposeAnimator.SetTrigger("InspectPickaxe");
+            fakePickaxeInspect.SetActive(true);
+            equippedTool.gameObject.SetActive(false);
         }
+    }
+
+    public void ResetAndGoBackToTheTool()
+    {
+        allPurposeAnimator.ResetTrigger("InspectPickaxe");
+        allPurposeAnimator.Rebind();
+        allPurposeAnimator.enabled = false;
+        equippedTool.gameObject.SetActive(true);
+        fakePickaxeInspect.SetActive(false);
     }
 
     private bool rememberToSlide = false;

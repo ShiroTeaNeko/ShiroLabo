@@ -10,6 +10,8 @@ public abstract class Tool : MonoBehaviour
     
     [SerializeField] ViewRecoil viewRecoil;
     
+    [SerializeField] public Animator animator;
+    
     public bool IsAttacking { get; protected set; }
 
     public virtual void Attack()

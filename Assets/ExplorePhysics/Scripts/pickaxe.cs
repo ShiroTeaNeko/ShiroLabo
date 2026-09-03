@@ -1,15 +1,17 @@
 using System;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Pickaxe : Tool
 {
     //void DoDamage
-    public AudioSource PickaxeSound;
-    public AudioClip PickaxeSoundClip;
+    
+    [SerializeField] private AudioSource pickaxeSource;
+    [SerializeField] private AudioClip[] pickaxeSounds;
+    private int _lastPlayedIndex = -1;
 
 
     [SerializeField] private SphereCollider hitCollider;
-    [SerializeField] private Animator animator;
     [SerializeField] private GameObject hitVfxPrefab;
     [SerializeField] private GameObject hitPoint;
     
@@ -20,7 +22,22 @@ public class Pickaxe : Tool
     public override void PlaySound()
     {
         base.PlaySound();
-        PickaxeSound.PlayOneShot(PickaxeSoundClip);
+        int randomIndex;
+        if (pickaxeSounds.Length == 1)
+        {
+            randomIndex = 0;
+        }
+        else
+        {
+            randomIndex = Random.Range(0, pickaxeSounds.Length - 1);
+            if (randomIndex >= _lastPlayedIndex)
+            {
+                randomIndex++;
+            }
+        }
+        
+        _lastPlayedIndex = randomIndex;
+        pickaxeSource.PlayOneShot(pickaxeSounds[randomIndex]);
     }
 
     public override void Inspect()
